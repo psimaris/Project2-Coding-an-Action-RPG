@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2210761592989761497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674612dbe4e22e441942361b0bdb7803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: 
+  Modifier:
+    ModifierMode: 1
+    Stats:
+      health: 0
+      strength: 1
+      defense: 0
+      agility: 0
+      elementalProtection: 00000000000000000000000000000000
+      elementalBoosts: 00000000000000000000000000000000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a96cf71494313b42b0e2459b8aa90d2, type: 3}
+  m_Name: Trailblazer_Rake
+  m_EditorClassIdentifier: 
+  ItemName: Trailblazer Rake
+  ItemSprite: {fileID: 21300000, guid: 5d0f6ae4987d02846b822915a7301dfa, type: 3}
+  Description: A sturdy rake, perfect for clearing tough terrain
+  WorldObjectPrefab: {fileID: 8115497767533682948, guid: 2ce28e09982cac64fa114271e3976374,
+    type: 3}
+  Slot: 666
+  MinimumStrength: 3
+  MinimumAgility: 3
+  MinimumDefense: 3
+  EquippedEffects:
+  - {fileID: -2210761592989761497}
+  HitSounds: []
+  SwingSounds: []
+  Stats:
+    Speed: 0.7
+    MinimumDamage: 6
+    MaximumDamage: 11
+    MaxRange: 3
+  AttackEffects: []

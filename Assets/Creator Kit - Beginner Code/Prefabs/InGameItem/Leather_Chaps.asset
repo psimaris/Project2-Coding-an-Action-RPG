@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640b52b005f736744b3aabdfb8f24abb, type: 3}
+  m_Name: Leather_Chaps
+  m_EditorClassIdentifier: 
+  ItemName: Leather Chaps
+  ItemSprite: {fileID: 21300000, guid: e69d7ae8a00a6fc4ba8cc78db4e86c16, type: 3}
+  Description: Protective leather coverings will help protect against tough terrains
+  WorldObjectPrefab: {fileID: 0}
+  Slot: 2
+  MinimumStrength: 0
+  MinimumAgility: 0
+  MinimumDefense: 0
+  EquippedEffects:
+  - {fileID: 164781366941816845}
+--- !u!114 &164781366941816845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674612dbe4e22e441942361b0bdb7803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: 
+  Modifier:
+    ModifierMode: 1
+    Stats:
+      health: 0
+      strength: -2
+      defense: 6
+      agility: -2
+      elementalProtection: 00000000000000000000000000000000
+      elementalBoosts: 00000000000000000000000000000000
